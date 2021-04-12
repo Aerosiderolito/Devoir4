@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A21F3FF"
+    tools:context=".ui.login.ConditionsActivity">
+
+    <TextView
+        android:id="@+id/tv_signup"
+        android:layout_width="411dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="#009688"
+        android:fontFamily="sans-serif-black"
+        android:text="                  Conditions d'utilisations"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/courriel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_passTemp"
+        android:layout_width="367dp"
+        android:layout_height="423dp"
+        android:layout_marginTop="184dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/conditions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/question1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_signup"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <ImageView
+        android:id="@+id/b_backCond"
+        android:layout_width="67dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/courriel1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="@+id/tv_signup"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
+        app:srcCompat="@drawable/ic_back" />
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="128dp"
+        android:layout_height="104dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_passTemp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_signup"
+        app:srcCompat="@drawable/ic_book" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

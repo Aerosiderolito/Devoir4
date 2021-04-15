@@ -22,7 +22,7 @@ public class InterestActivity extends AppCompatActivity implements
             { "Cours", "IFT2035", "IFT3911 ", "IFT2015 ", "IFT1065 "},
             { "Clubs", "Lecture ", "Cinema ", "Anime ", " Jeux-videos"}
     };
-    final int[] id = {R.id.sp_es,R.id.sp_prog,R.id.sp_ae,R.id.sp_cours,R.id.sp_club};
+    //final int[] id = {R.id.sp_es,R.id.sp_prog,R.id.sp_ae,R.id.sp_cours,R.id.sp_club};
     Spinner[] sp = new Spinner[5];
     ArrayAdapter[] aa = new ArrayAdapter[5];
 
@@ -32,16 +32,16 @@ public class InterestActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_interest);
         final Button iconSearch = findViewById(R.id.b_ic_search);
         final Button iconFriends = findViewById(R.id.b_ic_friends);
-        final Button search = findViewById(R.id.b_search);
+        //final Button search = findViewById(R.id.b_search);
         final ImageButton iconAcc = findViewById(R.id.b_account);
         final Button iconMessage = findViewById(R.id.b_ic_message);
 
 
-        for(int i = 0; i < 5; i++){
+        /*for(int i = 0; i < 5; i++){
             sp[i] = findViewById(id[i]);
-            sp[i].setOnItemSelectedListener(this);
+            sp[i].setOnItemSelectedListener(this);*/
 
-            for (int j = 0; j < 5 ; j++) {
+           /* for (int j = 0; j < 5 ; j++) {
                 aa[i] = new ArrayAdapter(this, android.R.layout.simple_spinner_item, options[i]);
                 aa[i].setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                 sp[i].setAdapter(aa[i]);
@@ -49,9 +49,9 @@ public class InterestActivity extends AppCompatActivity implements
 
 
 
-        }
+        }*/
 
-        iconAcc.setOnClickListener((View v) -> {
+        /*iconAcc.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, AideActivity.class);
             startActivity(intent);
         });
@@ -69,13 +69,13 @@ public class InterestActivity extends AppCompatActivity implements
         iconMessage.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, MessageActivity.class);
             startActivity(intent);
-        });
+        });*/
 
-        search.setOnClickListener((View v) -> {
+        /*search.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, SearchResultActivity.class);
             startActivity(intent);
         });
-
+*/
 
     }
 

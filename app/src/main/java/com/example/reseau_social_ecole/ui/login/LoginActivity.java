@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         loginButton.setOnClickListener((View v) -> {
-                Intent intent = new Intent(this, InterestActivity.class);
+                Intent intent = new Intent(this, ChatActivity.class);
                 startActivity(intent);
         });
 

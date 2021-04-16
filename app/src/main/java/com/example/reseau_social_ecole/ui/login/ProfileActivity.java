@@ -27,7 +27,7 @@ public class ProfileActivity extends AppCompatActivity {
         });
 
         firendsReq.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, FriendReqActivity.class);
+            Intent intent = new Intent(this, SecuriteActivity.class);
             startActivity(intent);
         });
 

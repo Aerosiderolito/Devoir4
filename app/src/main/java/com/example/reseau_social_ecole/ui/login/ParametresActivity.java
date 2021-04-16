@@ -29,8 +29,13 @@ public class ParametresActivity extends AppCompatActivity implements
         final Button iconSearch = findViewById(R.id.b_ic_param);
         final Button iconFriends = findViewById(R.id.b_ic_contacts);
         final Button iconMessage = findViewById(R.id.b_ic_messages);
+        final Button iconsecurity = findViewById(R.id.button_securit);
 
 
+        iconsecurity.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, SecuriteActivity.class);
+            startActivity(intent);
+        });
 
         iconSearch.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, ParametresActivity.class);

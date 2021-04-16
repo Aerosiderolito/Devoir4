@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toStartOf="@+id/b_ic_param"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:textColor="#020202" />
+        tools:textColor="@color/black" />
 
     <Button
         android:id="@+id/b_ic_param"

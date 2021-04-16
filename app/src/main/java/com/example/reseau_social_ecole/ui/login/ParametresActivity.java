@@ -13,28 +13,36 @@ import android.widget.Spinner;
 
 import com.example.reseau_social_ecole.R;
 
-public class InterestActivity extends AppCompatActivity implements
+public class ParametresActivity extends AppCompatActivity implements
         AdapterView.OnItemSelectedListener {
-
-    final String[][] options = { {"Établissement scolaire", "UdeM", "McGill", "UQAM", "Autre"},
-            { "Programme", "Informatique", "Sociologie ", "Arts ", "Musique "},
-            { "Associations étudiantes", " AEEEEUM ", "BIOUUU ", "ACASFR ", " UIOLKM"},
-            { "Cours", "IFT2035", "IFT3911 ", "IFT2015 ", "IFT1065 "},
-            { "Clubs", "Lecture ", "Cinema ", "Anime ", " Jeux-videos"}
-    };
-    //final int[] id = {R.id.sp_es,R.id.sp_prog,R.id.sp_ae,R.id.sp_cours,R.id.sp_club};
-    Spinner[] sp = new Spinner[5];
-    ArrayAdapter[] aa = new ArrayAdapter[5];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_interest);
-        final Button iconSearch = findViewById(R.id.b_ic_search);
+        setContentView(R.layout.activity_parametres);
+        /*final Button iconSearch = findViewById(R.id.b_ic_search);
         final Button iconFriends = findViewById(R.id.b_ic_friends);
         //final Button search = findViewById(R.id.b_search);
         final ImageButton iconAcc = findViewById(R.id.b_account);
-        final Button iconMessage = findViewById(R.id.b_ic_message);
+        final Button iconMessage = findViewById(R.id.b_ic_message);*/
+        final Button iconSearch = findViewById(R.id.b_ic_param);
+        final Button iconFriends = findViewById(R.id.b_ic_contacts);
+        final Button iconMessage = findViewById(R.id.b_ic_messages);
+
+        iconSearch.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, ParametresActivity.class);
+            startActivity(intent);
+        });
+
+        iconMessage.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, MessageActivity.class);
+            startActivity(intent);
+        });
+
+        iconFriends.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, ContactsActivity.class);
+            startActivity(intent);
+        });
 
 
         /*for(int i = 0; i < 5; i++){

@@ -22,7 +22,7 @@ public class FriendReqActivity extends AppCompatActivity {
         final ImageButton iconAcc = findViewById(R.id.b_account);
 
         iconSearch.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, InterestActivity.class);
+            Intent intent = new Intent(this, ParametresActivity.class);
             startActivity(intent);
         });
 

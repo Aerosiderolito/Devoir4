@@ -31,7 +31,7 @@ public class FriendsActivity extends AppCompatActivity {
 
         final Button iconSearch = findViewById(R.id.b_ic_search);
         iconSearch.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, InterestActivity.class);
+            Intent intent = new Intent(this, ParametresActivity.class);
             startActivity(intent);
         });
 
@@ -65,17 +65,17 @@ public class FriendsActivity extends AppCompatActivity {
         final Button msg3 = findViewById(R.id.b_message3);
 
         msg1.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ChatActivity.class);
+            Intent intent = new Intent(this, ContactsActivity.class);
             startActivity(intent);
         });
 
         msg2.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ChatActivity.class);
+            Intent intent = new Intent(this, ContactsActivity.class);
             startActivity(intent);
         });
 
         msg3.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ChatActivity.class);
+            Intent intent = new Intent(this, ContactsActivity.class);
             startActivity(intent);
         });
 

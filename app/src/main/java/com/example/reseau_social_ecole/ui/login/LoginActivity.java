@@ -7,9 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.ProgressBar;
 
 import com.example.reseau_social_ecole.R;
 
@@ -36,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         loginButton.setOnClickListener((View v) -> {
-                Intent intent = new Intent(this, ChatActivity.class);
+                Intent intent = new Intent(this, ContactsActivity.class);
                 startActivity(intent);
         });
 

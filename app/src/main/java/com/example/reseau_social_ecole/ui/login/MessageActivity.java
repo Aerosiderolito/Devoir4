@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,7 +14,26 @@ public class MessageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_messages);
-        final Button iconSearch = findViewById(R.id.b_ic_search);
+
+        final Button iconSearch = findViewById(R.id.b_ic_param);
+        final Button iconFriends = findViewById(R.id.b_ic_contacts);
+        final Button iconMessage = findViewById(R.id.b_ic_messages);
+
+        iconSearch.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, ParametresActivity.class);
+            startActivity(intent);
+        });
+
+        iconMessage.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, MessageActivity.class);
+            startActivity(intent);
+        });
+
+        iconFriends.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, ContactsActivity.class);
+            startActivity(intent);
+        });
+    /*    final Button iconSearch = findViewById(R.id.b_ic_search);
         final Button iconFriends = findViewById(R.id.b_ic_friends);
         final Button iconMessage = findViewById(R.id.b_ic_message);
 
@@ -23,22 +41,22 @@ public class MessageActivity extends AppCompatActivity {
         final Button rep2 = findViewById(R.id.b_repondre2);
         final Button rep3 = findViewById(R.id.b_repondre3);
         rep1.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ChatActivity.class);
+            Intent intent = new Intent(this, ContactsActivity.class);
             startActivity(intent);
         });
 
         rep2.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ChatActivity.class);
+            Intent intent = new Intent(this, ContactsActivity.class);
             startActivity(intent);
         });
 
         rep3.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ChatActivity.class);
+            Intent intent = new Intent(this, ContactsActivity.class);
             startActivity(intent);
         });
 
         iconSearch.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, InterestActivity.class);
+            Intent intent = new Intent(this, ParametresActivity.class);
             startActivity(intent);
         });
 
@@ -51,7 +69,7 @@ public class MessageActivity extends AppCompatActivity {
             Intent intent = new Intent(this, FriendsActivity.class);
             startActivity(intent);
         });
-
+*/
 
     }
 

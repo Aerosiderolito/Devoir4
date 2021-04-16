@@ -30,7 +30,7 @@ public class ContactsActivity extends AppCompatActivity {
         });
 
         iconFriends.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ConditionsActivity.class);
+            Intent intent = new Intent(this, ContactsActivity.class);
             startActivity(intent);
         });
 

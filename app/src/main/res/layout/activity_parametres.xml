@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/button_deconnexion"
-        android:layout_width="408dp"
+        android:layout_width="0dp"
         android:layout_height="90dp"
         android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
@@ -17,6 +17,12 @@
         android:textAlignment="textStart"
         android:textColor="@color/black"
         android:textSize="24sp"
+        app:icon="@drawable/ic_logout"
+        app:iconGravity="end"
+        app:iconPadding="8dp"
+        app:iconSize="50dp"
+        app:iconTint="#050505"
+        app:layout_constraintBottom_toTopOf="@+id/b_ic_messages"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +30,7 @@
 
     <Button
         android:id="@+id/button_support"
-        android:layout_width="408dp"
+        android:layout_width="0dp"
         android:layout_height="90dp"
         android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
@@ -32,14 +38,20 @@
         android:textAlignment="textStart"
         android:textColor="@color/black"
         android:textSize="24sp"
+        app:icon="@drawable/ic__agent_24"
+        app:iconGravity="end"
+        app:iconSize="50dp"
+        app:iconTint="#070707"
+        app:layout_constraintBottom_toTopOf="@+id/b_ic_contacts"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_dons" />
+        app:layout_constraintTop_toBottomOf="@+id/button_dons"
+        app:layout_constraintVertical_bias="0.049" />
 
     <Button
         android:id="@+id/button_dons"
-        android:layout_width="408dp"
+        android:layout_width="0dp"
         android:layout_height="90dp"
         android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
@@ -47,6 +59,10 @@
         android:textAlignment="textStart"
         android:textColor="@color/black"
         android:textSize="24sp"
+        app:icon="@drawable/ic_donate"
+        app:iconGravity="end"
+        app:iconSize="50dp"
+        app:iconTint="#050505"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_prpos" />
@@ -54,7 +70,7 @@
     <Button
         android:id="@+id/button_prpos"
         style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-        android:layout_width="408dp"
+        android:layout_width="0dp"
         android:layout_height="90dp"
         android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
@@ -62,6 +78,10 @@
         android:textAlignment="textStart"
         android:textColor="@color/black"
         android:textSize="24sp"
+        app:icon="@drawable/ic_info_24"
+        app:iconGravity="end"
+        app:iconSize="50dp"
+        app:iconTint="#0B0A0A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_access" />
@@ -129,7 +149,7 @@
 
     <Button
         android:id="@+id/button_access"
-        android:layout_width="408dp"
+        android:layout_width="0dp"
         android:layout_height="90dp"
         android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
@@ -137,8 +157,19 @@
         android:textAlignment="textStart"
         android:textColor="#0E0E0E"
         android:textSize="24sp"
+        app:icon="@drawable/ic_handicap"
+        app:iconGravity="end"
+        app:iconSize="50dp"
+        app:iconTint="#101010"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        tools:layout_editor_absoluteY="536dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

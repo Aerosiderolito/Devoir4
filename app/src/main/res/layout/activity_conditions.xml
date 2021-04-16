@@ -52,7 +52,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imgAcc"
         android:layout_width="128dp"
         android:layout_height="104dp"
         app:layout_constraintBottom_toTopOf="@+id/tv_passTemp"

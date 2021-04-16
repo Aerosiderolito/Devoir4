@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1A21F3FF"
+        tools:context=".ui.login.ConditionsActivity"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="-46dp">
+
+        <TextView
+            android:id="@+id/tv_signup2"
+            android:layout_width="411dp"
+            android:layout_height="50dp"
+            android:background="#009688"
+            android:fontFamily="@font/bangers"
+            android:text="Accessibilité"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/bangers"
+            android:text="Grandissement de texte"
+            android:textColor="#1B1919"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAcc" />
+
+        <ImageView
+            android:id="@+id/imgAcc"
+            android:layout_width="128dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_signup2"
+            app:srcCompat="@drawable/ic_baseline_accessibility_new_24" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="258dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alegreya"
+            android:text="Glisser pour ajuster la taille du texte"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintHorizontal_bias="0.311"
+            app:layout_constraintStart_toStartOf="@+id/seekBar2"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar2"
+            app:layout_constraintVertical_bias="0.09" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/bangers"
+            android:text="A"
+            android:textColor="#1B1919"
+            android:textSize="80sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="28dp"
+            android:layout_height="61dp"
+            android:fontFamily="@font/bangers"
+            android:text="A"
+            android:textColor="#1B1919"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView18"
+            app:layout_constraintEnd_toStartOf="@+id/seekBar2"
+            app:layout_constraintHorizontal_bias="0.87"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/seekBar2"
+            app:layout_constraintVertical_bias="0.512" />
+
+        <ImageView
+            android:id="@+id/b_backAcc"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_signup2"
+            app:layout_constraintHorizontal_bias="0.063"
+            app:layout_constraintStart_toStartOf="@+id/tv_signup2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_back" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

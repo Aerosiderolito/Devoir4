@@ -88,7 +88,7 @@ public class SearchResultActivity extends AppCompatActivity {
 
         final Button iconFriends = findViewById(R.id.b_ic_friends);
         iconFriends.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, FriendsActivity.class);
+            Intent intent = new Intent(this, DonsActivity.class);
             startActivity(intent);
         });
 

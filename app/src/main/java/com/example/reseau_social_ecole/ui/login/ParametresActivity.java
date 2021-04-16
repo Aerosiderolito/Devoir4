@@ -30,6 +30,24 @@ public class ParametresActivity extends AppCompatActivity implements
         final Button iconFriends = findViewById(R.id.b_ic_contacts);
         final Button iconMessage = findViewById(R.id.b_ic_messages);
         final Button iconsecurity = findViewById(R.id.button_securit);
+        final Button signout = findViewById(R.id.button_deconnexion);
+        final Button support = findViewById(R.id.button_support);
+        final Button dons = findViewById(R.id.button_dons);
+
+        support.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, SupportActivity.class);
+            startActivity(intent);
+        });
+
+        dons.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, DonsActivity.class);
+            startActivity(intent);
+        });
+
+        signout.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
+        });
 
 
         iconsecurity.setOnClickListener((View v) -> {

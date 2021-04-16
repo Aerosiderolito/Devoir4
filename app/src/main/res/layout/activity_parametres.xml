@@ -11,42 +11,60 @@
         android:id="@+id/button_deconnexion"
         android:layout_width="408dp"
         android:layout_height="90dp"
+        android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
         android:text="Deconnexion"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="531dp" />
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_support" />
 
     <Button
         android:id="@+id/button_support"
         android:layout_width="408dp"
         android:layout_height="90dp"
+        android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
         android:text="Support"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="424dp" />
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_dons" />
 
     <Button
         android:id="@+id/button_dons"
         android:layout_width="408dp"
         android:layout_height="90dp"
+        android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
         android:text="Dons"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="320dp" />
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_prpos" />
 
     <Button
         android:id="@+id/button_prpos"
-        style="@style/Widget.AppCompat.Button"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="408dp"
         android:layout_height="90dp"
-        android:backgroundTint="#E8FCFD"
+        android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
         android:text="A propos"
         android:textAlignment="textStart"
         android:textColor="@color/black"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="219dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_access" />
 
     <Button
         android:id="@+id/b_ic_messages"
@@ -113,13 +131,14 @@
         android:id="@+id/button_access"
         android:layout_width="408dp"
         android:layout_height="90dp"
-        android:backgroundTint="#1AEFF2F3"
+        android:backgroundTint="#C0FCFF"
         android:fontFamily="@font/bangers"
         android:text="Accessibilité"
         android:textAlignment="textStart"
         android:textColor="#0E0E0E"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="118dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,14 +1,13 @@
-package com.example.reseau_social_ecole.ui.login;
+package com.example.CONNECTadora.ui.CONNECTadora;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.reseau_social_ecole.R;
+import com.example.CONNECTadora.R;
 
 public class AccessibilityActivity extends AppCompatActivity  {
     @Override

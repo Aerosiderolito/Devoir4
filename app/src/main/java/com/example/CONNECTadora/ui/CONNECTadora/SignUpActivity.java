@@ -1,4 +1,4 @@
-package com.example.reseau_social_ecole.ui.login;
+package com.example.CONNECTadora.ui.CONNECTadora;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.example.reseau_social_ecole.R;
+import com.example.CONNECTadora.R;
 
 public class SignUpActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.reseau_social_ecole.ui.login;
+package com.example.CONNECTadora.ui.CONNECTadora;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,8 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.example.reseau_social_ecole.R;
+import com.example.CONNECTadora.R;
+
 import com.google.android.material.textfield.TextInputEditText;
 
 public class ChatActivity extends AppCompatActivity {
@@ -24,8 +25,6 @@ public class ChatActivity extends AppCompatActivity {
         final Button send = findViewById(R.id.b_send);
         final TextInputEditText champTexte = findViewById(R.id.champ_input);
 
-
-
         back.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, MessageActivity.class);
             startActivity(intent);
@@ -37,31 +36,15 @@ public class ChatActivity extends AppCompatActivity {
             champTexte.setText("");
 
         });
-
-
-
-
-
-
-
-
     }
 
-    // FROM STACK OVERFLOW
     public static void cacher(Activity activity) {
         InputMethodManager in = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
-        //prendre la fenetre adequate
         View vue = activity.getCurrentFocus();
-        // si aucune créer une nouvelle
         if (vue == null) {
             vue = new View(activity);
         }
         in.hideSoftInputFromWindow(vue.getWindowToken(), 0);
     }
 
-
-    /*public void showPopUp() {
-        PopUp popUp = new PopUp("Demande d'ami(e)", "Demande envoyée");
-        popUp.show(getSupportFragmentManager(), "popUp");
-    }*/
 }

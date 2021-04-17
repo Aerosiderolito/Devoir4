@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#1A21F3FF"
-        tools:context=".ui.login.ConditionsActivity"
+        tools:context=".ui.CONNECTadora.ConditionsActivity"
         tools:layout_editor_absoluteX="37dp"
         tools:layout_editor_absoluteY="-46dp">
 

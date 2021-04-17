@@ -1,4 +1,4 @@
-package com.example.reseau_social_ecole.ui.login;
+package com.example.CONNECTadora.ui.CONNECTadora;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,30 +6,27 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 
-import com.example.reseau_social_ecole.R;
+import com.example.CONNECTadora.R;
 
-public class SecuriteActivity extends AppCompatActivity {
+public class DonsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_securite);
+        setContentView(R.layout.activity_dons);
 
-        final Button send = findViewById(R.id.b_confirm3);
-
+        final Button confirmer = findViewById(R.id.b_confirm4);
         final ImageView back = findViewById(R.id.b_backParam);
 
-        back.setOnClickListener((View v) -> {
 
+        back.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, ParametresActivity.class);
             startActivity(intent);
-
         });
 
-        send.setOnClickListener((View v) -> {
+        confirmer.setOnClickListener((View v) -> {
 
             showPopUp();
 
@@ -38,7 +35,10 @@ public class SecuriteActivity extends AppCompatActivity {
 
     public void showPopUp() {
 
-        PopUp popUp = new PopUp("Confirmation", "Youppi votre mot de passe est changé");
+        PopUp popUp = new PopUp("Confirmation", "Merci pour votre généreux don.\n" +
+                "Nous sommes ravis de votre soutien..");
         popUp.show(getSupportFragmentManager(), "popUp");
+
     }
+
 }

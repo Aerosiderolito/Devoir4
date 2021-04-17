@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1A21F3FF"
-    tools:context=".ui.login.ChatActivity">
+    tools:context=".ui.CONNECTadora.ChatActivity">
 
     <TextView
         android:id="@+id/textView6"
@@ -75,15 +75,10 @@
         android:background="#E6E5E5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="410dp">
-
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.982" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/champ_input"
@@ -94,6 +89,8 @@
         android:background="#FFFFFF"
         android:hint="Écrivez votre message"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/attachClip"
         app:layout_constraintTop_toTopOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0" />
@@ -133,11 +130,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:layout_marginBottom="52dp"
         android:background="#6A6767"
         android:fontFamily="@font/alegreya"
         android:text="Okay !!!"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.009"
         app:layout_constraintStart_toStartOf="parent"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1A21F3FF"
-    tools:context=".ui.login.ConditionsActivity">
+    tools:context=".ui.CONNECTadora.ConditionsActivity">
 
     <TextView
         android:id="@+id/tv_signup"

@@ -1,4 +1,4 @@
-package com.example.reseau_social_ecole;
+package com.example.CONNECTadora;
 
 import android.content.Context;
 

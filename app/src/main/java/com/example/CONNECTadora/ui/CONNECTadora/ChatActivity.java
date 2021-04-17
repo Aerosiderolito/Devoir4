@@ -26,8 +26,9 @@ public class ChatActivity extends AppCompatActivity {
         final TextInputEditText champTexte = findViewById(R.id.champ_input);
 
         back.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, MessageActivity.class);
-            startActivity(intent);
+
+            this.finish();
+
         });
 
         send.setOnClickListener((View v) -> {

@@ -14,8 +14,8 @@
         <activity android:name=".ui.login.SecuriteActivity"/>
         <activity android:name=".ui.login.AccessibilityActivity" /> <!--A EFFACER SI CAUSE DE PROBLEME-->
         <activity android:name=".ui.login.DonsActivity" />
-        <activity android:name=".ui.login.OtherProfileActivity" />
-        <activity android:name=".ui.login.SearchResultActivity" />
+        <activity android:name=".ui.login.ChatActivity" />
+        <activity android:name=".ui.login.AddContactActivity" />
         <activity android:name=".ui.login.PassForgotActivity" />
         <activity android:name=".ui.login.SignUpActivity" />
         <activity android:name=".ui.login.ParametresActivity" />

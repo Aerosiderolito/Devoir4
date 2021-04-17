@@ -2,28 +2,29 @@ package com.example.reseau_social_ecole.ui.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.example.reseau_social_ecole.R;
 
-public class OtherProfileActivity extends AppCompatActivity {
+public class ChatActivity extends AppCompatActivity {
 
-   /* @Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aide);
+        setContentView(R.layout.activity_chat);
 
-        final Button add = findViewById(R.id.b_);
+        final ImageView back = findViewById(R.id.b_backMessages);
 
-        add.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showPopUp();
-            }
+        back.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, MessageActivity.class);
+            startActivity(intent);
         });
-    }*/
+    }
+
 
     /*public void showPopUp() {
         PopUp popUp = new PopUp("Demande d'ami(e)", "Demande envoyée");

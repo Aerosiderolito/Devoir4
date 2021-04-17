@@ -7,6 +7,169 @@
     android:background="#1A21F3FF">
 
     <Button
+        android:id="@+id/button5"
+        android:layout_width="409dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#00FFFFFF"
+        app:icon="@drawable/ic_baseline_arrow_right_alt_24"
+        app:iconGravity="end"
+        app:iconSize="80dp"
+        app:iconTint="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/b_ic_contacts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="409dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#00FFFFFF"
+        app:icon="@drawable/ic_baseline_arrow_right_alt_24"
+        app:iconGravity="end"
+        app:iconSize="80dp"
+        app:iconTint="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/b_ic_contacts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="192dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/nixie_one"
+        android:text="Hey, how are you? Contact me when you can please.."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/profPic10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="192dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/nixie_one"
+        android:text="Whatsupp?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.881" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="192dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/nixie_one"
+        android:text="Are you coming tonight?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.898" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="SAM"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/profPic10"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="Dom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="@+id/profPic11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="Nick"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="@+id/profPic13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profPic13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/profPic10"
+        android:layout_width="98dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintBottom_toTopOf="@+id/profPic5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/ic_account_box"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/profPic11"
+        android:layout_width="98dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.914"
+        app:srcCompat="@drawable/ic_account_box"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/profPic13"
+        android:layout_width="98dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/textView29"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.424"
+        app:srcCompat="@drawable/ic_account_box"
+        tools:ignore="MissingConstraints" />
+
+    <Button
         android:id="@+id/b_ic_messages"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="148dp"
@@ -67,5 +230,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="409dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#00FFFFFF"
+        app:icon="@drawable/ic_baseline_arrow_right_alt_24"
+        app:iconGravity="end"
+        app:iconSize="80dp"
+        app:iconTint="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/b_ic_contacts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.087" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

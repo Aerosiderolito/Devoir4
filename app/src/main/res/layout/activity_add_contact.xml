@@ -14,7 +14,7 @@
         android:layout_marginBottom="20dp"
         android:background="#009688"
         android:fontFamily="@font/bangers"
-        android:text="Aide"
+        android:text="Nouveau contact"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
@@ -24,25 +24,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tv_passTemp"
-        android:layout_width="418dp"
-        android:layout_height="389dp"
-        android:layout_marginTop="188dp"
-        android:fontFamily="@font/nixie_one"
-        android:text="@string/conditions"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/question1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_signup"
-        app:layout_constraintVertical_bias="0.523" />
-
 
     <ImageView
-        android:id="@+id/b_backCond"
+        android:id="@+id/b_backContact"
         android:layout_width="67dp"
         android:layout_height="40dp"
         android:layout_marginTop="4dp"
@@ -55,14 +39,17 @@
         app:srcCompat="@drawable/ic_back" />
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="172dp"
+        android:id="@+id/imageView2"
+        android:layout_width="175dp"
         android:layout_height="131dp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_passTemp"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/ic_account"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_signup"
-        app:srcCompat="@drawable/ic_help" />
+        app:layout_constraintTop_toTopOf="@+id/tv_signup"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

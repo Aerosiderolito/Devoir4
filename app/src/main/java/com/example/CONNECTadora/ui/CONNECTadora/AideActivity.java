@@ -19,8 +19,7 @@ public class AideActivity extends AppCompatActivity  {
         final ImageView back = findViewById(R.id.b_backCond);
 
         back.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, LoginActivity.class);
-            startActivity(intent);
+            this.finish();
         });
     }
 }

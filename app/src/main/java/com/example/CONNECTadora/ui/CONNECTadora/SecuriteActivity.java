@@ -21,8 +21,7 @@ public class SecuriteActivity extends AppCompatActivity {
         final ImageView back = findViewById(R.id.b_backParam);
 
         back.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ParametresActivity.class);
-            startActivity(intent);
+            this.finish();
 
         });
 

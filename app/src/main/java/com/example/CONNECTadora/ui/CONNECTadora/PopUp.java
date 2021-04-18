@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatDialogFragment;
 
 public class PopUp extends AppCompatDialogFragment {
 
-    private String defaultTitle;
-    private String defaultMsg;
+    final String defaultTitle;
+    final String defaultMsg;
 
     PopUp(String title, String msg){
         this.defaultTitle = title;

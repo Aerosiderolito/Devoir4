@@ -22,8 +22,7 @@ public class SignUpActivity extends AppCompatActivity {
         final Button inscript = findViewById(R.id.b_signup);
 
         backButon.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, LoginActivity.class);
-            startActivity(intent);
+            this.finish();
         });
 
         inscript.setOnClickListener(new View.OnClickListener() {

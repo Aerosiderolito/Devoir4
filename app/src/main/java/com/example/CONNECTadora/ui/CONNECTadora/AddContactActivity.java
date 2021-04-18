@@ -25,8 +25,7 @@ public class AddContactActivity extends AppCompatActivity {
         });
 
         back.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ContactsActivity.class);
-            startActivity(intent);
+            this.finish();
         });
     }
 

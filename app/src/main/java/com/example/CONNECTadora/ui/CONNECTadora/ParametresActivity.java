@@ -17,12 +17,8 @@ public class ParametresActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parametres);
-        final Button accessB = findViewById(R.id.button_access);
-        /*final Button iconSearch = findViewById(R.id.b_ic_search);
-        final Button iconFriends = findViewById(R.id.b_ic_friends);
-        //final Button search = findViewById(R.id.b_search);
-        final ImageButton iconAcc = findViewById(R.id.b_account);*/
 
+        final Button accessB = findViewById(R.id.button_access);
         final Button iconSearch = findViewById(R.id.b_ic_param);
         final Button iconFriends = findViewById(R.id.b_ic_contacts);
         final Button iconMessage = findViewById(R.id.b_ic_messages);
@@ -70,10 +66,7 @@ public class ParametresActivity extends AppCompatActivity implements
             Intent intent = new Intent(this, AccessibilityActivity.class);
             startActivity(intent);
         });
-
-
     }
-
 
     @Override
     public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id) {

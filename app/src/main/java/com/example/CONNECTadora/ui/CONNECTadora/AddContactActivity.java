@@ -12,8 +12,6 @@ import com.example.CONNECTadora.R;
 
 public class AddContactActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

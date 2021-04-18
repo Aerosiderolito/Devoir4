@@ -18,25 +18,21 @@ public class SecuriteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_securite);
 
         final Button send = findViewById(R.id.b_confirm3);
-
         final ImageView back = findViewById(R.id.b_backParam);
 
         back.setOnClickListener((View v) -> {
-
             Intent intent = new Intent(this, ParametresActivity.class);
             startActivity(intent);
 
         });
 
         send.setOnClickListener((View v) -> {
-
             showPopUp();
 
         });
     }
 
     public void showPopUp() {
-
         PopUp popUp = new PopUp("Confirmation", "Youppi votre mot de passe est changé");
         popUp.show(getSupportFragmentManager(), "popUp");
     }

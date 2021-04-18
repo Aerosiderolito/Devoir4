@@ -21,24 +21,18 @@ public class PassForgotActivity extends AppCompatActivity {
         final ImageView back = findViewById(R.id.b_backCond);
 
         back.setOnClickListener((View v) -> {
-
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
-
         });
 
         confirmer.setOnClickListener((View v) -> {
-
             showPopUp();
-
         });
     }
 
     public void showPopUp() {
-
         PopUp popUp = new PopUp("Confirmation", "Youppi votre mot de passe temporaire" +
                 " est envoyé par sms sur votre numéro de téléphone.");
         popUp.show(getSupportFragmentManager(), "popUp");
-
     }
 }

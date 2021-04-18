@@ -13,7 +13,6 @@
         <activity android:name="com.example.CONNECTadora.ui.CONNECTadora.AideActivity" />
         <activity android:name="com.example.CONNECTadora.ui.CONNECTadora.SecuriteActivity"/>
         <activity android:name="com.example.CONNECTadora.ui.CONNECTadora.AccessibilityActivity" />
-        <!--A EFFACER SI CAUSE DE PROBLEME-->
         <activity android:name="com.example.CONNECTadora.ui.CONNECTadora.DonsActivity" />
         <activity android:name="com.example.CONNECTadora.ui.CONNECTadora.ChatActivity" />
         <activity android:name="com.example.CONNECTadora.ui.CONNECTadora.AddContactActivity" />

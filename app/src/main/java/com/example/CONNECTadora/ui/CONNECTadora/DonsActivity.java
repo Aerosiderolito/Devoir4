@@ -20,16 +20,13 @@ public class DonsActivity extends AppCompatActivity {
         final Button confirmer = findViewById(R.id.b_confirm4);
         final ImageView back = findViewById(R.id.b_backParam);
 
-
         back.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, ParametresActivity.class);
             startActivity(intent);
         });
 
         confirmer.setOnClickListener((View v) -> {
-
             showPopUp();
-
         });
     }
 
@@ -38,7 +35,5 @@ public class DonsActivity extends AppCompatActivity {
         PopUp popUp = new PopUp("Confirmation", "Merci pour votre généreux don.\n" +
                 "Nous sommes ravis de votre soutien..");
         popUp.show(getSupportFragmentManager(), "popUp");
-
     }
-
 }

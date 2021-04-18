@@ -18,7 +18,6 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-
         final Button condition = findViewById(R.id.b_condition);
         final Button loginButton = findViewById(R.id.b_login);
         final Button createButton = findViewById(R.id.b_connexion);
@@ -75,8 +74,6 @@ public class LoginActivity extends AppCompatActivity {
             fr.setTextColor(color);
             eng.setTextColor(color);
             esp.setTextColor(Color.RED);
-
-
         });
 
     }

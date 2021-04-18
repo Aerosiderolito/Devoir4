@@ -26,16 +26,12 @@ public class ChatActivity extends AppCompatActivity {
         final TextInputEditText champTexte = findViewById(R.id.champ_input);
 
         back.setOnClickListener((View v) -> {
-
             this.finish();
-
         });
 
         send.setOnClickListener((View v) -> {
             cacher(this);
-
             champTexte.setText("");
-
         });
     }
 
@@ -47,5 +43,4 @@ public class ChatActivity extends AppCompatActivity {
         }
         in.hideSoftInputFromWindow(vue.getWindowToken(), 0);
     }
-
 }

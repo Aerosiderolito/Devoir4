@@ -17,14 +17,10 @@ public class AccessibilityActivity extends AppCompatActivity  {
 
         final ImageView b_backAcc = findViewById(R.id.b_backAcc);
 
-
         b_backAcc.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, ParametresActivity.class);
             startActivity(intent);
         });
 
 }
-
-
-
 }

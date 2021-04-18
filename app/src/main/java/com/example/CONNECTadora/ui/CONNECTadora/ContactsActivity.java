@@ -25,8 +25,6 @@ public class ContactsActivity extends AppCompatActivity {
         final ImageView msg3 = findViewById(R.id.msg3);
         final ImageView msg4 = findViewById(R.id.msg4);
 
-
-
         msg1.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, ChatActivity.class);
             startActivity(intent);
@@ -66,8 +64,5 @@ public class ContactsActivity extends AppCompatActivity {
             Intent intent = new Intent(this, ContactsActivity.class);
             startActivity(intent);
         });
-
-
-
     }
 }

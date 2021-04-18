@@ -23,6 +23,4 @@ public class AideActivity extends AppCompatActivity  {
             startActivity(intent);
         });
     }
-
-
 }

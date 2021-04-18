@@ -30,8 +30,8 @@ public class SupportActivity extends AppCompatActivity {
             showPopUp();
         });
     }
-    public void showPopUp() {
 
+    public void showPopUp() {
         PopUp popUp = new PopUp("Confirmation", "Merci, vous serez contacté sous peu.");
         popUp.show(getSupportFragmentManager(), "popUp");
 

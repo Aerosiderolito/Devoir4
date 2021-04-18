@@ -23,6 +23,4 @@ public class ConditionsActivity extends AppCompatActivity {
             startActivity(intent);
         });
     }
-
-
 }

@@ -14,8 +14,8 @@
         app:layout_constraintBottom_toTopOf="@+id/b_ic_contacts"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.37"
-        app:layout_constraintStart_toEndOf="@+id/textView14"
-        app:layout_constraintTop_toTopOf="@+id/textView14"
+        app:layout_constraintStart_toEndOf="@+id/nameView3"
+        app:layout_constraintTop_toTopOf="@+id/nameView3"
         app:layout_constraintVertical_bias="0.105"
         app:srcCompat="@drawable/ic_bubble_24" />
 
@@ -24,16 +24,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="192dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintBottom_toTopOf="@+id/tel2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.823"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintStart_toEndOf="@+id/nameView1"
+        app:layout_constraintTop_toTopOf="@+id/nameView1"
         app:layout_constraintVertical_bias="0.157"
         app:srcCompat="@drawable/ic_bubble_24" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/nameView0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/bangers"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/tel1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -60,7 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/nameView0"
         app:layout_constraintVertical_bias="0.153" />
 
     <Button
@@ -124,7 +124,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/tel2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -136,11 +136,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toEndOf="@+id/profPic5"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/nameView1"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/nameView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/bangers"
@@ -158,10 +158,10 @@
         android:layout_width="93dp"
         android:layout_height="90dp"
         app:layout_constraintBottom_toTopOf="@+id/b_ic_messages"
-        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintEnd_toStartOf="@+id/nameView3"
         app:layout_constraintHorizontal_bias="0.408"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/profPicture"
         app:layout_constraintVertical_bias="0.275"
         app:srcCompat="@drawable/ic_account_box"
         tools:ignore="MissingConstraints" />
@@ -213,7 +213,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/nameView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="220dp"
@@ -221,13 +221,13 @@
         android:text="EDOUARD"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintBottom_toBottomOf="@+id/profPicture"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/profPicture"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/nameView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
@@ -238,12 +238,12 @@
         app:layout_constraintBottom_toBottomOf="@+id/profPic6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/profPicture"
         app:layout_constraintTop_toTopOf="@+id/profPic6"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/tel3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="116dp"
@@ -251,15 +251,15 @@
         android:text="+66-455-663-6267"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintBottom_toBottomOf="@+id/profPicture"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.944"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintStart_toEndOf="@+id/profPicture"
+        app:layout_constraintTop_toBottomOf="@+id/nameView2"
         app:layout_constraintVertical_bias="0.17" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/tel4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -272,16 +272,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.903"
         app:layout_constraintStart_toEndOf="@+id/profPic6"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/nameView3"
         app:layout_constraintVertical_bias="0.058" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/profPicture"
         android:layout_width="92dp"
         android:layout_height="98dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintEnd_toStartOf="@+id/nameView2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profPic5"
@@ -291,11 +291,11 @@
         android:id="@+id/msg3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintBottom_toTopOf="@+id/tel4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.046"
-        app:layout_constraintStart_toEndOf="@+id/textView13"
-        app:layout_constraintTop_toTopOf="@+id/textView13"
+        app:layout_constraintStart_toEndOf="@+id/nameView2"
+        app:layout_constraintTop_toTopOf="@+id/nameView2"
         app:layout_constraintVertical_bias="0.061"
         app:srcCompat="@drawable/ic_bubble_24" />
 
@@ -303,10 +303,10 @@
         android:id="@+id/msg1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintBottom_toTopOf="@+id/tel1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.066"
-        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toEndOf="@+id/nameView0"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
         app:layout_constraintVertical_bias="0.703"
         app:srcCompat="@drawable/ic_bubble_24" />

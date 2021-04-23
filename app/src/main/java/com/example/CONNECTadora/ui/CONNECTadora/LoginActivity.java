@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        final Button condition = findViewById(R.id.b_condition);
+
         final Button loginButton = findViewById(R.id.b_login);
         final Button createButton = findViewById(R.id.b_connexion);
         final Button forgetButton = findViewById(R.id.b_forgetPass);
@@ -29,11 +29,6 @@ public class LoginActivity extends AppCompatActivity {
 
         Resources res = getResources();
         int color = res.getColor(R.color.teal_700);
-
-        condition.setOnClickListener((View v) -> {
-            Intent intent = new Intent(this, ConditionsActivity.class);
-            startActivity(intent);
-        });
 
         aide.setOnClickListener((View v) -> {
             Intent intent = new Intent(this, AideActivity.class);

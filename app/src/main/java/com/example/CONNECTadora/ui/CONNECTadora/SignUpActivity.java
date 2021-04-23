@@ -21,6 +21,13 @@ public class SignUpActivity extends AppCompatActivity {
 
         final Button inscript = findViewById(R.id.b_signup);
 
+        final Button condition = findViewById(R.id.b_condition);
+
+        condition.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, ConditionsActivity.class);
+            startActivity(intent);
+        });
+
         backButon.setOnClickListener((View v) -> {
             this.finish();
         });
@@ -31,8 +38,11 @@ public class SignUpActivity extends AppCompatActivity {
                 showPopUp();
             }
         });
-
     }
+
+
+
+
     public void showPopUp(){
         PopUp popUp = new PopUp("Confirmation", "Inscription réussi"+"\nVeuillez cliquer sur \"OK\"" +
                 "et retour à la page précédente par la flèche en haut et gauche.");

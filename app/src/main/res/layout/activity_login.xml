@@ -13,21 +13,6 @@
     tools:context=".ui.CONNECTadora.LoginActivity">
 
     <Button
-        android:id="@+id/b_condition"
-        android:layout_width="237dp"
-        android:layout_height="41dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="@string/condition"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:textColor="#009688"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795" />
-
-    <Button
         android:id="@+id/b_aide"
         android:layout_width="127dp"
         android:layout_height="43dp"
@@ -38,10 +23,9 @@
         android:textColorLink="#009688"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.992"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.797" />
+        app:layout_constraintVertical_bias="0.856" />
 
     <EditText
         android:id="@+id/courriel"
@@ -113,12 +97,11 @@
         android:layout_height="44dp"
         android:backgroundTint="#009688"
         android:text="@string/Inscription"
-        app:layout_constraintBottom_toTopOf="@+id/b_condition"
+        app:layout_constraintBottom_toTopOf="@+id/b_aide"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintTop_toBottomOf="@+id/b_login" />
 
     <Button
         android:id="@+id/b_forgetPass"
@@ -164,8 +147,7 @@
         app:layout_constraintEnd_toEndOf="@+id/b_esp"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b_condition"
-        app:layout_constraintVertical_bias="0.483" />
+        app:layout_constraintTop_toBottomOf="@+id/b_aide" />
 
     <Button
         android:id="@+id/b_eng"
@@ -178,8 +160,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b_condition"
-        app:layout_constraintVertical_bias="0.483" />
+        app:layout_constraintTop_toBottomOf="@+id/b_aide" />
 
     <Button
         android:id="@+id/b_esp"

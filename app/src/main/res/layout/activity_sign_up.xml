@@ -7,6 +7,21 @@
     android:background="#1A21F3FF"
     tools:context=".ui.CONNECTadora.SignUpActivity">
 
+    <Button
+        android:id="@+id/b_condition"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/condition"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_adulte"
+        app:layout_constraintVertical_bias="0.054" />
+
     <EditText
         android:id="@+id/courriel1"
         style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
@@ -107,11 +122,14 @@
         android:id="@+id/checkBox_adulte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
         android:text="Avez vous 18 ans ou plus?"
         app:layout_constraintBottom_toTopOf="@+id/checkBox_conditions"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password1"
+        app:layout_constraintVertical_bias="0.991" />
 
     <CheckBox
         android:id="@+id/checkBox_conditions"
@@ -120,9 +138,10 @@
         android:text="Acceptez-vous les conditions d'utilisation ?"
         app:layout_constraintBottom_toTopOf="@+id/b_signup"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.828" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/b_backCond"

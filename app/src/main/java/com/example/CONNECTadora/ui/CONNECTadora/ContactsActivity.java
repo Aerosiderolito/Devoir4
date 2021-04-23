@@ -21,10 +21,10 @@ public class ContactsActivity extends AppCompatActivity {
         final Button iconFriends = findViewById(R.id.b_ic_contacts);
         final Button iconMessage = findViewById(R.id.b_ic_messages);
         final ImageView add = findViewById(R.id.add);
-        final ImageView msg1 = findViewById(R.id.msg1);
-        final ImageView msg2 = findViewById(R.id.msg2);
-        final ImageView msg3 = findViewById(R.id.msg3);
-        final ImageView msg4 = findViewById(R.id.msg4);
+        final Button msg1 = findViewById(R.id.msg1);
+        final Button msg2 = findViewById(R.id.msg2);
+        final Button msg3 = findViewById(R.id.msg3);
+        final Button msg4 = findViewById(R.id.msg4);
 
         final ImageView profPic0 = findViewById(R.id.profPic7);
         final ImageView profPic1 = findViewById(R.id.profPic5);

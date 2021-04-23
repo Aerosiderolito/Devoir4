@@ -241,7 +241,7 @@
         android:layout_height="72dp"
         android:background="#009688"
         android:fontFamily="@font/bangers"
-        android:text="@string/message_title"
+        android:text="Boîte de Réception"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="36sp"

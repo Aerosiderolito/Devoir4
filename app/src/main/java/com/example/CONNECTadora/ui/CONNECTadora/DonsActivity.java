@@ -32,7 +32,8 @@ public class DonsActivity extends AppCompatActivity {
     public void showPopUp() {
 
         PopUp popUp = new PopUp("Confirmation", "Merci pour votre généreux don.\n" +
-                "Nous sommes ravis de votre soutien..");
+                "Nous sommes ravis de votre soutien.."+"\nVeuillez cliquer sur \"OK\"" +
+                "et retour à la page précédente par la flèche en haut et gauche.");
         popUp.show(getSupportFragmentManager(), "popUp");
     }
 }

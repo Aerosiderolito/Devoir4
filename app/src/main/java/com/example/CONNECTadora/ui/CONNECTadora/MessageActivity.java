@@ -17,6 +17,7 @@ public class MessageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_messages);
 
+        final Button addConversation = findViewById(R.id.b_add);
         final Button iconSearch = findViewById(R.id.b_ic_param);
         final Button iconFriends = findViewById(R.id.b_ic_contacts);
         final Button iconMessage = findViewById(R.id.b_ic_messages);
@@ -52,6 +53,10 @@ public class MessageActivity extends AppCompatActivity {
             Intent intent = new Intent(this, ContactsActivity.class);
             startActivity(intent);
         });
-    }
 
+        addConversation.setOnClickListener((View v) -> {
+            Intent intent = new Intent(this, ChatActivity.class);
+            startActivity(intent);
+        });
+    }
 }

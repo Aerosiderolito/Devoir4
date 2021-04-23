@@ -31,7 +31,8 @@ public class PassForgotActivity extends AppCompatActivity {
 
     public void showPopUp() {
         PopUp popUp = new PopUp("Confirmation", "Youppi votre mot de passe temporaire" +
-                " est envoyé par sms sur votre numéro de téléphone.");
+                " est envoyé par sms sur votre numéro de téléphone."+"\nVeuillez cliquer sur \"OK\"" +
+                "et retour à la page précédente par la flèche en haut et gauche.");
         popUp.show(getSupportFragmentManager(), "popUp");
     }
 }

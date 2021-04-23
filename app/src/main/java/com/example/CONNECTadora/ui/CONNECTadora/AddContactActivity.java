@@ -30,7 +30,8 @@ public class AddContactActivity extends AppCompatActivity {
     }
 
     public void showPopUp() {
-        PopUp popUp = new PopUp("Confirmation","Contact ajouté.");
+        PopUp popUp = new PopUp("Confirmation","Contact ajouté.\nVeuillez cliquer sur \"OK\"" +
+                "et retour à la page précédente par la flèche en haut et gauche.");
         popUp.show(getSupportFragmentManager(), "popUp");
     }
 }

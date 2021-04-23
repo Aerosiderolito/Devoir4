@@ -32,7 +32,8 @@ public class SecuriteActivity extends AppCompatActivity {
     }
 
     public void showPopUp() {
-        PopUp popUp = new PopUp("Confirmation", "Youppi votre mot de passe est changé");
+        PopUp popUp = new PopUp("Confirmation", "Youppi votre mot de passe est changé"+"\nVeuillez cliquer sur \"OK\"" +
+                "et retour à la page précédente par la flèche en haut et gauche.");
         popUp.show(getSupportFragmentManager(), "popUp");
     }
 }

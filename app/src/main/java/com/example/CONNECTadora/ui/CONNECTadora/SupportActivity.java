@@ -31,7 +31,8 @@ public class SupportActivity extends AppCompatActivity {
     }
 
     public void showPopUp() {
-        PopUp popUp = new PopUp("Confirmation", "Merci, vous serez contacté sous peu.");
+        PopUp popUp = new PopUp("Confirmation", "Merci, vous serez contacté sous peu."+"\nVeuillez cliquer sur \"OK\"" +
+                "et retour à la page précédente par la flèche en haut et gauche.");
         popUp.show(getSupportFragmentManager(), "popUp");
 
     }

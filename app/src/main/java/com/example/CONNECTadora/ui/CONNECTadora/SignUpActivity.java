@@ -34,7 +34,8 @@ public class SignUpActivity extends AppCompatActivity {
 
     }
     public void showPopUp(){
-        PopUp popUp = new PopUp("Confirmation", "Inscription réussi");
+        PopUp popUp = new PopUp("Confirmation", "Inscription réussi"+"\nVeuillez cliquer sur \"OK\"" +
+                "et retour à la page précédente par la flèche en haut et gauche.");
         popUp.show(getSupportFragmentManager(), "popUp");
     }
 }

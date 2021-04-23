@@ -94,7 +94,7 @@
         android:background="#FFFFFF"
         android:backgroundTint="#009688"
         android:fontFamily="@font/fredoka_one"
-        android:text="Message"
+        android:text="Boîte de Réception"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/b_ic_param"
         app:layout_constraintHorizontal_bias="0.0"
